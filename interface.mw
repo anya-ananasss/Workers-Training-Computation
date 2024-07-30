@@ -1,0 +1,424 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Worksheet>
+<Version major="2017" minor="0"/>
+<Label-Scheme value="2" prefix=""/>
+<View-Properties presentation="false" autoexpanding_sections="true" UserProfileName="Maple Default Profile" NumericFormat-ApplyInteger="true" NumericFormat-ApplyRational="true" NumericFormat-ApplyExponent="false">
+</View-Properties>
+<MapleNet-Properties prettyprint="3" warnlevel="3" preplot="" helpbrowser="standard" contextmenusize="automatic" displayprecision="-1" echo="1" unitattributes="&quot;fontweight&quot; = &quot;bold&quot;" imaginaryunit="I" longdelim="true" elisiontermsthreshold="10000" elisiondigitsafter="100" elisiondigitsbefore="100" plotdevice="inline" errorbreak="1" plotoptions="" plotdriver="opengl" quiet="false" elisiontermsbefore="100" elisiontermsafter="100" screenwidth="79" indentamount="4" plotoutput="terminal" screenpixelheight="2000" rtablesize="10" useclientjvm="true" labelwidth="20" postplot="" typesetting="extended" ansi="false" elisiondigitsthreshold="10000" showassumed="1" errorcursor="false" labelling="true" screenheight="25" prompt="&gt; " verboseproc="1" latexwidth="8.0" ShowLabels="true"/>
+<Styles>
+<Font name="Heading 1" background="[255,255,255]" bold="true" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="18" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Warning" background="[255,255,255]" bold="false" executable="false" family="Courier New" foreground="[0,0,255]" italic="false" opaque="false" readonly="true" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="2D Output" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,255]" italic="false" opaque="false" readonly="true" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Heading 4" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="true" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Line Printed Output" background="[255,255,255]" bold="false" executable="false" family="Courier New" foreground="[0,0,255]" italic="false" opaque="false" readonly="true" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Heading 2" background="[255,255,255]" bold="true" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="16" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Maple Output" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="2D Inert Output" background="[255,255,255]" bold="false" executable="true" family="Times New Roman" foreground="[144,144,144]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Heading 3" background="[255,255,255]" bold="true" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="true" opaque="false" readonly="false" size="14" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Diagnostic" background="[255,255,255]" bold="false" executable="false" family="Courier New" foreground="[40,120,40]" italic="false" opaque="false" readonly="true" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Ordered List 1" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Maple Input" background="[255,255,255]" bold="true" executable="true" family="Courier New" foreground="[120,0,14]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Text Output" background="[255,255,255]" bold="false" executable="false" family="Courier New" foreground="[0,0,255]" italic="false" opaque="false" readonly="true" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Ordered List 2" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Ordered List 3" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Ordered List 4" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Ordered List 5" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Annotation Title" background="[255,255,255]" bold="true" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="18" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Header and Footer" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="10" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="HyperlinkError" background="[255,255,255]" bold="false" executable="false" family="Courier New" foreground="[255,0,255]" italic="false" opaque="false" readonly="true" size="12" subscript="false" superscript="false" underline="true" placeholder="false"/>
+<Font name="Atomic Variable" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[175,0,175]" italic="true" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="HyperlinkWarning" background="[255,255,255]" bold="false" executable="false" family="Courier New" foreground="[0,0,255]" italic="false" opaque="false" readonly="true" size="12" subscript="false" superscript="false" underline="true" placeholder="false"/>
+<Font name="Dictionary Hyperlink" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[147,0,15]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="true" placeholder="false"/>
+<Font name="2D Math" background="[255,255,255]" bold="false" executable="true" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Bullet Item" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Maple Plot" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Annotation Text" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="List Item" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Dash Item" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="2D Input" background="[255,255,255]" bold="false" executable="true" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Error" background="[255,255,255]" bold="false" executable="false" family="Courier New" foreground="[255,0,255]" italic="false" opaque="false" readonly="true" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Title" background="[255,255,255]" bold="true" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="18" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Text" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Normal" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Caption Reference" background="[255,255,255]" bold="true" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Code" background="[255,255,255]" bold="false" executable="false" family="Courier New" foreground="[255,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Maple Input Placeholder" background="[255,255,255]" bold="true" executable="true" family="Courier New" foreground="[200,0,200]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="true"/>
+<Font name="Equation Label" background="[255,255,255]" bold="true" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Author" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Hyperlink" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,128,128]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="true" placeholder="false"/>
+<Font name="Caption Text" background="[255,255,255]" bold="true" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Layout name="Heading 1" alignment="left" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="8" spacebelow="4" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Warning" alignment="left" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="0" spacebelow="0" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Heading 4" alignment="left" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="0" spacebelow="0" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Line Printed Output" alignment="left" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="0" spacebelow="0" linebreak="any" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Heading 2" alignment="left" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="8" spacebelow="2" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Maple Output" alignment="centred" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.3" spaceabove="0" spacebelow="0" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Heading 3" alignment="left" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="0" spacebelow="0" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Diagnostic" alignment="left" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="0" spacebelow="0" linebreak="any" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Ordered List 1" alignment="left" bullet="numeric" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="3" spacebelow="3" linebreak="space" pagebreak-before="false" initial="-1" bulletsuffix="."/>
+<Layout name="Text Output" alignment="left" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="0" spacebelow="0" linebreak="newline" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Ordered List 2" alignment="left" bullet="alphabetic" firstindent="0" leftmargin="36" rightmargin="0" linespacing="0.0" spaceabove="3" spacebelow="3" linebreak="space" pagebreak-before="false" initial="-1" bulletsuffix="."/>
+<Layout name="Ordered List 3" alignment="left" bullet="roman" firstindent="0" leftmargin="72" rightmargin="0" linespacing="0.0" spaceabove="3" spacebelow="3" linebreak="space" pagebreak-before="false" initial="-1" bulletsuffix="."/>
+<Layout name="Ordered List 4" alignment="left" bullet="ALPHABETIC" firstindent="0" leftmargin="108" rightmargin="0" linespacing="0.0" spaceabove="3" spacebelow="3" linebreak="space" pagebreak-before="false" initial="-1" bulletsuffix="."/>
+<Layout name="Ordered List 5" alignment="left" bullet="ROMAN" firstindent="0" leftmargin="144" rightmargin="0" linespacing="0.0" spaceabove="3" spacebelow="3" linebreak="space" pagebreak-before="false" initial="-1" bulletsuffix="."/>
+<Layout name="Annotation Title" alignment="centred" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="12" spacebelow="12" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="HyperlinkError" alignment="left" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="0" spacebelow="0" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="HyperlinkWarning" alignment="left" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="0" spacebelow="0" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Bullet Item" alignment="left" bullet="dot" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="3" spacebelow="3" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Maple Plot" alignment="centred" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="0" spacebelow="0" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="List Item" alignment="left" bullet="indent" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="3" spacebelow="3" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Dash Item" alignment="left" bullet="dash" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="3" spacebelow="3" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Error" alignment="left" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="0" spacebelow="0" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Title" alignment="centred" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="12" spacebelow="12" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Normal" alignment="left" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="0" spacebelow="0" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Author" alignment="centred" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="8" spacebelow="8" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Pencil-style name="Pencil 1" pen-color="[0,0,0]" pen-height="1.0" pen-width="1.0" pen-opacity="1.0"/>
+<Pencil-style name="Pencil 2" pen-color="[0,0,255]" pen-height="1.0" pen-width="1.0" pen-opacity="1.0"/>
+<Pencil-style name="Pencil 3" pen-color="[0,0,0]" pen-height="3.0" pen-width="3.0" pen-opacity="1.0"/>
+<Pencil-style name="Pencil 4" pen-color="[0,0,255]" pen-height="3.0" pen-width="3.0" pen-opacity="1.0"/>
+<Pencil-style name="Pencil 5" pen-color="[255,0,0]" pen-height="5.0" pen-width="5.0" pen-opacity="1.0"/>
+<Highlighter-style name="Highlighter 5" pen-color="[255,255,0]" pen-height="48.0" pen-width="48.0" pen-opacity="0.8"/>
+<Highlighter-style name="Highlighter 3" pen-color="[51,255,0]" pen-height="24.0" pen-width="24.0" pen-opacity="0.8"/>
+<Highlighter-style name="Highlighter 4" pen-color="[0,255,255]" pen-height="32.0" pen-width="32.0" pen-opacity="0.8"/>
+<Highlighter-style name="Highlighter 1" pen-color="[255,153,255]" pen-height="12.0" pen-width="8.0" pen-opacity="0.8"/>
+<Highlighter-style name="Highlighter 2" pen-color="[255,204,0]" pen-height="14.0" pen-width="14.0" pen-opacity="0.8"/>
+</Styles>
+<Startup-Code startupcode=""/>
+<Task-table>
+    <Task-category name="&lt;default&gt;"/>
+</Task-table>
+<Task/>
+<Group labelreference="L38" drawlabel="true">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">restart;
+with(Maplets[Examples]):</Text-field>
+</Input>
+</Group>
+<Group labelreference="L45" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal"><Font encoding="UTF-8">#\320\260\320\273\320\263\320\276\321\200\320\270\321\202\320\274
+</Font></Text-field>
+</Input>
+</Group>
+<Group hide-input="false" labelreference="L46" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">timeEvaluation := proc (n, t, a_arr, b_arr, v_arr)
+
+local eq, rep_arr, j, i, v_coeff, a_coeff, b_coeff, reps, x_aux, g_aux, gamma_i, g_i, k, g_arr, x_arr, ri, rj, gamma_res, res_arr;
+
+
+<Font encoding="UTF-8">g_arr := Array(1..n, 0); #\320\274\320\260\321\201\321\201\320\270\320\262 \320\264\320\273\321\217 \321\205\321\200\320\260\320\275\320\265\320\275\320\270\321\217 \320\277\320\276\320\273\321\203\321\207\320\265\320\275\320\275\321\213\321\205 \320\275\320\260 \320\272\320\260\320\266\320\264\320\276\320\274 \321\210\320\260\320\263\320\265 \320\267\320\275\320\260\321\207\320\265\320\275\320\270\320\271 \320\263\320\260\320\274\320\274\320\260
+x_arr := Array(1..n, 0); #\320\274\320\260\321\201\321\201\320\270\320\262 \320\264\320\273\321\217 \321\205\321\200\320\260\320\275\320\265\320\275\320\270\321\217 \320\277\320\276\320\273\321\203\321\207\320\265\320\275\320\275\321\213\321\205 \320\275\320\260 \320\272\320\260\320\266\320\264\320\276\320\274 \321\210\320\260\320\263\320\265 \320\267\320\275\320\260\321\207\320\265\320\275\320\270\320\271 \320\262\321\200\320\265\320\274\320\265\320\275\320\270 x_i</Font>
+
+<Font encoding="UTF-8">eq := a[i]*x[i]^b[i] = gamma - V[i]; #\321\203\321\200\320\260\320\262\320\275\320\265\320\275\320\270\320\265 \320\264\320\273\321\217 x_i</Font>
+
+rep_arr := Array(1..n, 0);
+
+
+  for i from 2 to n do
+    if v_arr[i] = v_arr[i-1]
+     then rep_arr[i] := 1;
+     rep_arr[i-1] := 1; 
+    end if;
+  end do;
+
+
+</Text-field>
+</Input>
+<Input><Text-field prompt="&gt; " style="Maple Input" spaceabove="0" linebreak="space" rightmargin="0" linespacing="0.0" initial="0" firstindent="0" leftmargin="0" bulletsuffix="" alignment="left" bullet="none" spacebelow="0" pagebreak-before="false">for i from 1 to n do
+ 
+
+ ri := rep_arr[i];
+ v_coeff := 0; a_coeff := 0; b_coeff := 0; reps := 0;
+
+<Font encoding="UTF-8">  if ri=1 then #\320\265\321\201\320\273\320\270 \320\267\320\260\320\264\320\260\320\275\321\213 \320\277\320\276\320\262\321\202\320\276\321\200\321\217\321\216\321\211\320\270\320\265\321\201\321\217 \320\267\320\275\320\260\321\207\320\265\320\275\320\270\321\217, \321\202\320\276 \320\275\320\260\321\207\320\260\321\202\321\214</Font>
+<Font encoding="UTF-8">   for j from i to 4 do #\321\206\320\270\320\272\320\273, \320\272\320\276\321\202\320\276\321\200\321\213\320\271 \320\275\320\260\321\205\320\276\320\264\320\270\321\202, \320\275\320\260 \320\272\320\260\320\272\320\276\320\274 \320\270\320\275\320\264\320\265\320\272\321\201\320\265 \320\267\320\260\320\272\320\260\320\275\321\207\320\270\320\262\320\260\321\216\321\202\321\201\321\217 \320\277\320\276\320\262\321\202\320\276\321\200\321\213 \320\267\320\275\320\260\321\207\320\265\320\275\320\270\320\271
+</Font>     rj := rep_arr[j];
+     if rj=0 then 
+       break;
+      else
+      reps := reps+1;
+    end if;
+   end do;
+ end if;
+
+
+
+<Font encoding="UTF-8"> if reps &gt; 0 then #\320\265\321\201\320\273\320\270 \320\265\321\201\321\202\321\214 \320\277\320\276\320\262\321\202\320\276\321\200\320\265\320\275\320\270\321\217, \321\202\320\276...
+</Font>    for j from 1 to reps+1 do
+      a_coeff := a_coeff + a_arr[j];
+<Font encoding="UTF-8">      b_coeff := b_coeff + b_arr[j]; #\321\201\321\203\320\274\320\274\320\270\321\200\320\276\320\262\321\202\321\214 \320\262\321\201\320\265 \320\277\320\276\320\262\321\202\320\276\321\200\321\217\321\216\321\211\320\270\320\265\321\201\321\217 \320\267\320\275\320\260\321\207\320\265\320\275\320\270\321\217
+</Font>      v_coeff := v_coeff + v_arr[j];
+    end do;
+<Font encoding="UTF-8">  else #\320\265\321\201\320\273\320\270 \320\267\320\275\320\260\321\207\320\265\320\275\320\270\321\217 \320\275\320\265 \320\277\320\276\320\262\321\202\320\276\321\200\321\217\321\216\321\202\321\201\321\217, \321\202\320\276 \320\261\321\200\320\260\321\202\321\214 \320\267\320\260\320\264\320\260\320\275\320\275\321\213\320\265 \320\262 \320\274\320\260\321\201\321\201\320\270\320\262\320\260\321\205, \321\201\320\276\320\276\321\202\320\262\320\265\321\202\321\201\321\202\320\262\321\203\321\216\321\211\320\270\320\265 \320\267\320\275\320\260\321\207\320\265\320\275\320\270\321\217
+</Font>    a_coeff := a_arr[i];
+    b_coeff := b_arr[i];
+    v_coeff := v_arr[i];
+  end if;
+</Text-field>
+</Input>
+<Input><Text-field prompt="&gt; " style="Maple Input" spaceabove="0" linebreak="space" rightmargin="0" linespacing="0.0" initial="0" firstindent="0" leftmargin="0" bulletsuffix="" alignment="left" bullet="none" spacebelow="0" pagebreak-before="false">
+<Font encoding="UTF-8">  #\320\262\321\213\321\207\320\270\321\201\320\273\320\265\320\275\320\270\321\217
+</Font>
+  
+   if i=1 then
+   eq := subs('a[i]' = a[i], 'b[i]' = b[i], 'V[i]' = V[i], 'x[i]' = x[i], eq);
+  else 
+   eq := subs(a[i-1] = a[i], b[i-1] = b[i], V[i-1] = V[i], x[i-1] = x[i], eq);
+  end if;
+
+
+
+  x_aux := rhs(<Font encoding="UTF-8">isolate(eq, x[i])); #\320\267\320\260\320\264\320\260\320\275\320\270\320\265 \320\262\321\213\321\200\320\260\320\266\320\265\320\275\320\270\321\217 \320\264\320\273\321\217 x_i
+</Font>  
+
+<Font encoding="UTF-8">  g_aux := subs (x[i] = T, gamma = gamma[i], eq); #\320\277\320\265\321\200\320\265\321\205\320\276\320\264 \320\272 \320\275\320\260\321\205\320\276\320\266\320\264\320\265\320\275\320\270\321\216 \320\262\321\213\321\200\320\260\320\266\320\265\320\275\320\270\321\217 \320\264\320\273\321\217 gamma_i
+</Font>
+  
+<Font encoding="UTF-8">  gamma_i := simplify(rhs(isolate (g_aux, gamma[i]))); #\320\277\320\276\320\273\321\203\321\207\320\270\321\202\321\214 \320\262\321\213\321\200\320\260\320\266\320\265\320\275\320\270\320\265 \320\264\320\273\321\217 gamma_i 
+
+</Font>  g_i := subs(T = t, a[i] = a_coeff, b[i] = b_coeff, V[i] = v_coeff, gamma_i);<Font encoding="UTF-8">  #\320\262\321\213\321\207\320\270\321\201\320\273\320\270\321\202\321\214 \320\267\320\275\320\260\321\207\320\265\320\275\320\270\320\265 gamma_i \320\277\321\200\320\270 \320\267\320\260\320\264\320\260\320\275\320\275\321\213\321\205 \321\203\321\201\320\273\320\276\320\262\320\270\321\217\321\205</Font>
+
+ 
+</Text-field>
+</Input>
+<Input><Text-field prompt="&gt; " style="Maple Input" spaceabove="0" linebreak="space" rightmargin="0" linespacing="0.0" initial="0" firstindent="0" leftmargin="0" bulletsuffix="" alignment="left" bullet="none" spacebelow="0" pagebreak-before="false"><Font encoding="UTF-8">  #\320\277\321\200\320\276\320\262\320\265\321\200\320\272\320\260 \320\277\320\265\321\200\320\265\321\205\320\276\320\264\320\260 \320\275\320\260 \321\201\320\273\320\265\320\264\321\203\321\216\321\211\320\270\320\271 \321\210\320\260\320\263 
+</Font>  if reps &gt; 0 then <Font encoding="UTF-8">#\320\265\321\201\320\273\320\270 \320\261\321\213\320\273\320\270 \320\277\320\276\320\262\321\202\320\276\321\200\320\265\320\275\320\270\321\217, \321\202\320\276</Font>
+   for k from i to i+reps-1 do<Font encoding="UTF-8"> #\320\267\320\260\320\277\320\276\320\273\320\275\320\270\321\202\321\214 \321\217\321\207\320\265\320\271\320\272\320\270 \320\274\320\260\321\201\321\201\320\270\320\262\320\260 \321\200\320\265\320\267\321\203\320\273\321\214\321\202\320\260\321\202\320\260\320\274\320\270 \320\263\320\260\320\274\320\274\320\260 \320\270 x, \320\270\320\275\320\264\320\265\320\272\321\201\321\213 \320\272.-\321\205 \321\201\320\276\320\262\320\277\320\260\320\264\320\260\321\216\321\202 \321\201 \320\270\320\275\320\264\320\265\320\272\321\201\320\260\320\274\320\270 \320\277\320\276\320\262\321\202\320\276\321\200\320\276\320\262, \320\277\320\276\320\273\321\203\321\207. \320\267\320\275\320\260\321\207\320\265\320\275\320\270\321\217\320\274\320\270 </Font>
+    g_arr[k] := g_i;  
+    x_arr[k] := x_aux;
+   end do;
+   i := i+reps-1;
+   eq :=  a[i]*x[i]^b[i] = gamma - V[i]; <Font encoding="UTF-8">#\320\277\320\265\321\200\320\265\321\205\320\276\320\264 \320\272 \321\201\320\273\320\265\320\264\321\203\321\216\321\211\320\265\320\274\321\203 \320\261\320\273\320\276\320\272\321\203 \321\201\320\276 \321\201\320\273\320\265\320\264\321\203\321\216\321\211\320\270\320\274\320\270 \320\276\321\206\320\265\320\275\320\272\320\260\320\274\320\270
+</Font>   if g_i<Font encoding="UTF-8"> &lt;= v_arr[i+1] then #\320\265\321\201\320\273\320\270 \320\262\321\213\320\277\320\276\320\273\320\275\321\217\320\265\321\202\321\201\321\217 \321\203\321\201\320\273\320\276\320\262\320\270\320\265 \320\264\320\273\321\217 \320\262\321\213\321\205\320\276\320\264\320\260, </Font>
+     <Font encoding="UTF-8">gamma_res := g_i; #\320\277\320\276 \321\203\321\201\320\273\320\276\320\262\320\270\321\216, \320\267\320\275\320\260\321\207\320\265\320\275\320\270\320\265 gamma \320\264\320\273\321\217 \320\262\321\213\321\207\320\270\321\201\320\273\320\265\320\275\320\270\320\271 \320\276\320\277\321\200\320\265\320\264\320\273\321\217\320\265\321\202\321\201\321\217 \320\277\320\276 \320\267\320\275\320\260\321\207\320\265\320\275\320\270\321\216, \320\277\320\276\320\273\321\203\321\207\320\265\320\275\320\275\320\276\320\274\321\203 \320\277\320\265\321\200\320\265\320\264 \320\267\320\260\320\262\320\265\321\200\321\210\320\265\320\275\320\270\320\265\320\274 \320\260\320\273\320\263\320\276\321\200\320\270\321\202\320\274\320\260</Font>
+     <Font encoding="UTF-8">break; #\320\267\320\260\320\272\320\276\320\275\321\207\320\270\321\202\321\214 \320\277\321\200\320\276\320\263\321\200\320\260\320\274\320\274\321\203</Font>
+   end if; 
+<Font encoding="UTF-8">  else #\320\265\321\201\320\273\320\270 \320\277\320\276\320\262\321\202\320\276\321\200\320\265\320\275\320\270\320\271 \320\275\320\265 \320\261\321\213\320\273\320\276, \321\202\320\276</Font>
+   g_arr[i] := g_i;
+   x_arr[i] := x_aux; <Font encoding="UTF-8">#\320\267\320\260\320\277\320\276\320\273\320\275\320\270\321\202\321\214 \321\217\321\207\320\265\320\271\320\272\320\270 \320\274\320\260\321\201\321\201\320\270\320\262\320\276\320\262 \321\200\320\265\320\267\321\203\320\273\321\214\321\202\320\260\321\202\320\276\320\262 \320\263\320\260\320\274\320\274\320\260 \320\270 x \320\277\320\276\320\264 \320\270\320\275\320\264\320\265\320\272\321\201\320\276\320\274, \320\275\320\260\320\264 \321\201\320\276\320\276\321\202\320\262\320\265\321\202\321\201\321\202\320\262\321\203\321\216\321\211\320\265\320\274 \320\272.-\320\274\321\203 \320\267\320\275\320\260\321\207\320\265\320\275\320\270\321\217\320\274\320\270 \320\277\321\200\320\276\320\262\320\276\320\264\320\270\320\273\320\270\321\201\321\214 \320\262\321\213\321\207\320\270\321\201\320\273\320\265\320\275\320\270\321\217</Font>
+   <Font encoding="UTF-8">if g_i &lt;= v_arr[i+1] then #\320\265\321\201\320\273\320\270 \320\262\321\213\320\277\320\276\320\273\320\275\321\217\320\265\321\202\321\201\321\217 \321\203\321\201\320\273\320\276\320\262\320\270\320\265 \320\264\320\273\321\217 \320\262\321\213\321\205\320\276\320\264\320\260,
+    gamma_res := g_i; #\320\277\320\276 \321\203\321\201\320\273\320\276\320\262\320\270\321\216, \320\267\320\275\320\260\321\207\320\265\320\275\320\270\320\265 gamma \320\264\320\273\321\217 \320\262\321\213\321\207\320\270\321\201\320\273\320\265\320\275\320\270\320\271 \320\276\320\277\321\200\320\265\320\264\320\273\321\217\320\265\321\202\321\201\321\217 \320\277\320\276 \320\267\320\275\320\260\321\207\320\265\320\275\320\270\321\216, \320\277\320\276\320\273\321\203\321\207\320\265\320\275\320\275\320\276\320\274\321\203 \320\277\320\265\321\200\320\265\320\264 \320\267\320\260\320\262\320\265\321\200\321\210\320\265\320\275\320\270\320\265\320\274 \320\260\320\273\320\263\320\276\321\200\320\270\321\202\320\274\320\260
+    break; #\320\267\320\260\320\272\320\276\320\275\321\207\320\270\321\202\321\214 \320\277\321\200\320\276\320\263\321\200\320\260\320\274\320\274\321\203</Font>
+<Font encoding="UTF-8">   end if; #\320\267\320\260\320\272\321\200\321\213\321\202\321\214 \320\277\320\265\321\200\320\262\321\213\320\271 if
+  end if; #\320\267\320\260\320\272\321\200\321\213\321\202\321\214 \321\203\321\201\320\273\320\276\320\262\320\270\320\265 \320\275\320\260 \320\277\321\200\320\276\320\262\320\265\321\200\320\272\321\203 \320\277\320\276\320\262\321\202\320\276\321\200\320\265\320\275\320\270\320\271
+</Font>end do;
+
+<Font encoding="UTF-8">#\320\262\321\213\321\207\320\270\321\201\320\273\320\265\320\275\320\270\320\265 \320\267\320\275\320\260\321\207\320\265\320\275\320\270\320\271 x_i \320\275\320\260 \320\276\321\201\320\275\320\276\320\262\320\265 \320\275\320\260\320\271\320\264\320\265\320\275\320\275\320\276\320\271 gamma_res</Font>
+res_arr := Array(1..n);
+for i from 1 to n do
+  res_arr[i] := evalf(subs(a[i] = a_arr[i], b[i] = b_arr[i], gamma = gamma_res, V[i] = v_arr[i], x_arr[i]));
+  if i&lt;n and x_arr[i]=x_arr[i+1] then
+    res_arr[i+1] := res_arr[i];
+    i:=i+1;
+  end if;
+end do;
+
+return res_arr;
+end proc;</Text-field>
+</Input>
+<Output><Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output" display="LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYmLUkjbWlHRiQ2JVEvdGltZUV2YWx1YXRpb25GJy8lJ2l0YWxpY0dRJXRydWVGJy8lLG1hdGh2YXJpYW50R1EnaXRhbGljRictSSNtb0dGJDYtUSkmQXNzaWduO0YnL0YzUSdub3JtYWxGJy8lJmZlbmNlR1EmZmFsc2VGJy8lKnNlcGFyYXRvckdGPS8lKXN0cmV0Y2h5R0Y9LyUqc3ltbWV0cmljR0Y9LyUobGFyZ2VvcEdGPS8lLm1vdmFibGVsaW1pdHNHRj0vJSdhY2NlbnRHRj0vJSdsc3BhY2VHUSwwLjI3Nzc3NzhlbUYnLyUncnNwYWNlR0ZMLUYjNiwtRjY2L1ElcHJvY0YnLyUlYm9sZEdGMS9GM1ElYm9sZEYnLyUrZm9udHdlaWdodEdGV0Y7Rj5GQEZCRkRGRkZIL0ZLUSYwLjBlbUYnL0ZORmVuLUkobWZlbmNlZEdGJDYkLUYjNi4tRiw2JVEibkYnRi9GMi1GNjYtUSIsRidGOUY7L0Y/RjFGQEZCRkRGRkZIRlovRk5RLDAuMzMzMzMzM2VtRictRiw2JVEidEYnRi9GMkZfby1GLDYlUSZhX2FyckYnRi9GMkZfby1GLDYlUSZiX2FyckYnRi9GMkZfby1GLDYlUSZ2X2FyckYnRi9GMi8lK2ZvcmVncm91bmRHUShbMCwwLDBdRicvJSlyZWFkb25seUdGPUY5RjktSSdtc3BhY2VHRiQ2Ji8lJ2hlaWdodEdRJjAuMGV4RicvJSZ3aWR0aEdRJjAuNWVtRicvJSZkZXB0aEdGW3EvJSpsaW5lYnJlYWtHUTFmaXJzdHByb2NuZXdsaW5lRictRiM2Ki1GNjYvUSZsb2NhbEYnRlRGVkZYRjtGPkZARkJGREZGRkhGWkZmbi1GZ3A2JkZpcEZccUZfcS9GYnFRJWF1dG9GJy1GIzZKLUYsNiVRI2VxRidGL0YyRl9vLUYsNiVRKHJlcF9hcnJGJ0YvRjJGX28tRiw2JVEiakYnRi9GMkZfby1GLDYlUSJpRidGL0YyRl9vLUYsNiVRKHZfY29lZmZGJ0YvRjJGX28tRiw2JVEoYV9jb2VmZkYnRi9GMkZfby1GLDYlUShiX2NvZWZmRidGL0YyRl9vLUYsNiVRJXJlcHNGJ0YvRjJGX28tRiw2JVEmeF9hdXhGJ0YvRjJGX28tRiw2JVEmZ19hdXhGJ0YvRjJGX28tRiw2JVEoZ2FtbWFfaUYnRi9GMkZfby1GLDYlUSRnX2lGJ0YvRjJGX28tRiw2JVEia0YnRi9GMkZfby1GLDYlUSZnX2FyckYnRi9GMkZfby1GLDYlUSZ4X2FyckYnRi9GMkZfby1GLDYlUSNyaUYnRi9GMkZfby1GLDYlUSNyakYnRi9GMkZfby1GLDYlUSpnYW1tYV9yZXNGJ0YvRjJGX28tRiw2JVEocmVzX2FyckYnRi9GMkZhcEZkcEY5LUY2Ni1RIjtGJ0Y5RjtGYm9GQEZCRkRGRkZIRlpGTUZmcEZhcEZkcEY5LUYjNi4tRiM2KC1GIzYoRmZ0LUY2Ni1RKn4mIzg3ODg7fkYnRjlGO0Y+RkBGQkZERkZGSEZaRmZuLUYjNigtRiw2JVEmQXJyYXlGJ0YvRjItRjY2LVEwJkFwcGx5RnVuY3Rpb247RidGOUY7Rj5GQEZCRkRGRkZIRlpGZm4tRmhuNiQtRiM2KC1GIzYoLUkjbW5HRiQ2JFEiMUYnRjktRjY2LVEjLi5GJ0Y5RjtGPkZARkJGREZGRkgvRktRLDAuMjIyMjIyMmVtRidGZm5GXG9GYXBGZHBGOUZfby1GY3c2JFEiMEYnRjlGYXBGZHBGOUY5RmFwRmRwRjlGYXBGZHBGOUZodUZmcEZhcEZkcEY5LUYjNigtRiM2KEZpdEZhdkZkdkZhcEZkcEY5Rmh1RmZwRmFwRmRwRjktRiM2KC1GIzYoRl9yRmF2LUYjNigtRiM2Ji1GIzYpLUYsNiVRImFGJ0YvRjItRjY2LVEiW0YnRjkvRjxGMUY+L0ZBRjFGQkZERkZGSC9GS1EsMC4xNjY2NjY3ZW1GJy9GTkZleS1GIzYmRmhyRmFwRmRwRjktRjY2LVEiXUYnRjlGYnlGPkZjeUZCRkRGRkZIRmR5L0ZOUSwwLjExMTExMTFlbUYnRmFwRmRwRjktRjY2LVEiKkYnRjlGO0Y+RkBGQkZERkZGSEZkeUZmeS1GIzYoLUYjNiktRiw2JVEieEYnRi9GMkZfeUZneUZpeUZhcEZkcEY5LUY2Ni1RIl5GJ0Y5RjtGPkZARkJGREZGRkgvRktGXXpGXHotRiM2KS1GLDYlUSJiRidGL0YyRl95Rmd5Rml5RmFwRmRwRjlGYXBGZHBGOUY5LUY2Ni1RIj1GJ0Y5RjtGPkZARkJGREZGRkhGSkZNLUYjNiYtRiw2JVEmZ2FtbWFGJy9GMEY9RjktRjY2LVEqfiYjODcyMjt+RidGOUY7Rj5GQEZCRkRGRkZIRlpGZm4tRiM2KS1GLDYlUSJWRidGL0YyRl95Rmd5Rml5RmFwRmRwRjlGOUZhcEZkcEY5RmFwRmRwRjlGaHVGZnBGYXBGZHBGOS1GIzYoLUYjNihGYnJGYXZGZHZGYXBGZHBGOUZodUZmcEZhcEZkcEY5LUYjNigtRiM2Ki1GIzYyLUY2Ni9RJGZvckYnRlRGVkZYRjtGPkZARkJGREZGRkhGWkZmbkZpcUZockZpcS1GNjYvUSVmcm9tRidGVEZWRlhGO0Y+RkBGQkZERkZGSEZaRmZuRmlxLUZjdzYkUSIyRidGOUZpcS1GNjYvUSN0b0YnRlRGVkZYRjtGPkZARkJGREZGRkhGWkZmbkZpcUZcb0ZpcS1GNjYvUSNkb0YnRlRGVkZYRjtGPkZARkJGREZGRkhGWkZmbkZhcEZkcEY5LUZncDYmRmlwRlxxRl9xL0ZicVE2aW5jcmVhc2VpbmRlbnRuZXdsaW5lRictRiM2Jy1GIzYtLUY2Ni9RI2lmRidGVEZWRlhGO0Y+RkBGQkZERkZGSEZaRmZuRmlxLUYjNigtRiM2KUZecEZfeUZneUZpeUZhcEZkcEY5RmFbbC1GIzYpRl5wRl95LUYjNiYtRiM2JkZockZqW2xGYndGOUZhcEZkcEY5Rml5RmFwRmRwRjlGYXBGZHBGOUZpcS1GNjYvUSV0aGVuRidGVEZWRlhGO0Y+RkBGQkZERkZGSEZaRmZuRltebC1GIzYnLUYjNigtRiM2KC1GIzYpRmJyRl95Rmd5Rml5RmFwRmRwRjlGYXZGYndGYXBGZHBGOUZodUZmcEZhcEZkcEY5LUYjNigtRiM2KUZickZfeUZcX2xGaXlGYXBGZHBGOUZhdkZid0ZhcEZkcEY5RmFwRmRwRjktRmdwNiZGaXBGXHFGX3EvRmJxUTZkZWNyZWFzZWluZGVudG5ld2xpbmVGJ0ZhcEZkcEY5LUY2Ni9RJ2VuZH5pZkYnRlRGVkZYRjtGPkZARkJGREZGRkhGWkZmbkZhcEZkcEY5Rl9gbC1GNjYvUSdlbmR+ZG9GJ0ZURlZGWEY7Rj5GQEZCRkRGRkZIRlpGZm5GYXBGZHBGOUZodUZmcEZhcEZkcEY5LUYjNigtRiM2Ki1GIzYuRlxdbEZpcUZockZpcUZlXWxGaXFGXG9GaXFGaF1sRmFwRmRwRjlGW15sLUYjNjItRiM2KC1GIzYoRlx1RmF2RmlfbEZhcEZkcEY5Rmh1RmZwRmFwRmRwRjktRiM2KC1GIzYoRltzRmF2Rlt4RmFwRmRwRjlGaHVGZnBGYXBGZHBGOS1GIzYoLUYjNihGXnNGYXZGW3hGYXBGZHBGOUZodUZmcEZhcEZkcEY5LUYjNigtRiM2KEZhc0ZhdkZbeEZhcEZkcEY5Rmh1RmZwRmFwRmRwRjktRiM2KC1GIzYoRmRzRmF2Rlt4RmFwRmRwRjlGaHVGZnBGYXBGZHBGOS1GIzYoLUYjNictRiM2LUZjXmxGaXEtRiM2KEZcdUZhW2xGYndGYXBGZHBGOUZpcUZgX2xGW15sLUYjNiotRiM2MkZcXWxGaXFGZXJGaXFGX11sRmlxRmhyRmlxRmVdbEZpcS1GY3c2JFEiNEYnRjlGaXFGaF1sRmFwRmRwRjlGW15sLUYjNictRiM2KC1GIzYoRl91RmF2LUYjNilGYnJGX3ktRiM2JkZlckZhcEZkcEY5Rml5RmFwRmRwRjlGYXBGZHBGOUZodUZmcEZhcEZkcEY5LUYjNigtRiM2LUZjXmxGaXEtRiM2KEZfdUZhW2xGW3hGYXBGZHBGOUZpcUZgX2xGW15sLUYjNiYtRjY2L1EmYnJlYWtGJ0ZURlZGWEY7Rj5GQEZCRkRGRkZIRlpGZm5GYXBGZHBGOUZfYGxGYXBGZHBGOS1GIzYpLUY2Ni9RJWVsc2VGJ0ZURlZGWEY7Rj5GQEZCRkRGRkZIRlpGZm5GW15sLUYjNihGZHNGYXYtRiM2JkZkcy1GNjYtUSIrRidGOUY7Rj5GQEZCRkRGRkZIRml3L0ZORmp3RmJ3RjlGYXBGZHBGOUZfYGxGYXBGZHBGOUZjYGxGYXBGZHBGOUZhcEZkcEY5Rl9gbEZmYGxGYXBGZHBGOUZfYGxGYXBGZHBGOUZjYGxGYXBGZHBGOUZodUZmcEZhcEZkcEY5LUYjNigtRiM2KC1GIzYtRmNebEZpcS1GIzYoRlt4LUY2Ni1RIjxGJ0Y5RjtGPkZARkJGREZGRkhGSkZNRmRzRmFwRmRwRjlGaXFGYF9sRltebC1GIzYqLUYjNi5GXF1sRmlxRmVyRmlxRmVdbEZpcUZgZWxGaXFGaF1sRmFwRmRwRjlGW15sLUYjNigtRiM2KC1GIzYoRl5zRmF2LUYjNiZGXnNGYmVsLUYjNilGaG9GX3lGXGRsRml5RmFwRmRwRjlGOUZhcEZkcEY5Rmh1RmZwRmFwRmRwRjktRiM2KC1GIzYoRmFzRmF2LUYjNiZGYXNGYmVsLUYjNilGW3BGX3lGXGRsRml5RmFwRmRwRjlGOUZhcEZkcEY5Rmh1RmZwRmFwRmRwRjktRiM2KEZbc0Zhdi1GIzYmRltzRmJlbC1GIzYpRl5wRl95RlxkbEZpeUZhcEZkcEY5RjlGYXBGZHBGOUZhcEZkcEY5Rl9gbEZmYGxGYXBGZHBGOUZfYGxGYXBGZHBGOS1GIzYpRltlbEZbXmwtRiM2KC1GIzYoLUYjNihGXnNGYXYtRiM2KUZob0ZfeUZneUZpeUZhcEZkcEY5RmFwRmRwRjlGaHVGZnBGYXBGZHBGOS1GIzYoLUYjNihGYXNGYXYtRiM2KUZbcEZfeUZneUZpeUZhcEZkcEY5RmFwRmRwRjlGaHVGZnBGYXBGZHBGOS1GIzYoRltzRmF2RmhebEZhcEZkcEY5RmFwRmRwRjlGX2BsRmFwRmRwRjlGY2BsRmFwRmRwRjlGaHVGZnBGYXBGZHBGOS1GIzYoLUYjNigtRiM2LUZjXmxGaXEtRiM2KEZockZhW2xGYndGYXBGZHBGOUZpcUZgX2xGW15sLUYjNihGX3JGYXYtRiM2KC1GLDYlUSVzdWJzRidGL0YyRml2LUZobjYkLUYjNi4tRiM2KC1GIzYoLUY2Ni1RIidGJ0Y5RjtGPkZARkJGREZGRkhGW1tsRmZuRmp4RmZqbEZhcEZkcEY5RmFbbEZqeEZhcEZkcEY5Rl9vLUYjNigtRiM2KEZmamxGXFtsRmZqbEZhcEZkcEY5RmFbbEZcW2xGYXBGZHBGOUZfby1GIzYoLUYjNihGZmpsRl1cbEZmamxGYXBGZHBGOUZhW2xGXVxsRmFwRmRwRjlGX28tRiM2KC1GIzYoRmZqbEZjekZmamxGYXBGZHBGOUZhW2xGY3pGYXBGZHBGOUZfb0ZfckZhcEZkcEY5RjlGYXBGZHBGOUZhcEZkcEY5Rl9gbEZhcEZkcEY5LUYjNilGW2VsRltebC1GIzYoRl9yRmF2LUYjNihGW2psRml2LUZobjYkLUYjNi4tRiM2KC1GIzYpRlx5Rl95RlxfbEZpeUZhcEZkcEY5RmFbbEZqeEZhcEZkcEY5Rl9vLUYjNigtRiM2KUZeW2xGX3lGXF9sRml5RmFwRmRwRjlGYVtsRlxbbEZhcEZkcEY5Rl9vLUYjNigtRiM2KUZfXGxGX3lGXF9sRml5RmFwRmRwRjlGYVtsRl1cbEZhcEZkcEY5Rl9vLUYjNigtRiM2KUZlekZfeUZcX2xGaXlGYXBGZHBGOUZhW2xGY3pGYXBGZHBGOUZfb0ZfckZhcEZkcEY5RjlGYXBGZHBGOUZhcEZkcEY5Rl9gbEZhcEZkcEY5RmNgbEZhcEZkcEY5Rmh1RmZwRmFwRmRwRjktRiM2KC1GIzYoRmdzRmF2LUYjNigtRiw2JVEkcmhzRidGL0YyRml2LUZobjYkLUYjNiYtRiM2KC1GLDYlUShpc29sYXRlRidGL0YyRml2LUZobjYkLUYjNihGX3JGX29GY3pGYXBGZHBGOUY5RmFwRmRwRjlGYXBGZHBGOUY5RmFwRmRwRjlGYXBGZHBGOUZodUZmcEZhcEZkcEY5LUYjNigtRiM2KEZqc0Zhdi1GIzYoRltqbEZpdi1GaG42JC1GIzYqLUYjNihGY3pGYVtsLUYsNiVRIlRGJ0YvRjJGYXBGZHBGOUZfby1GIzYoRmZbbEZhW2wtRiM2KUZmW2xGX3lGZ3lGaXlGYXBGZHBGOUZhcEZkcEY5Rl9vRl9yRmFwRmRwRjlGOUZhcEZkcEY5RmFwRmRwRjlGaHVGZnBGYXBGZHBGOS1GIzYoLUYjNihGXXRGYXYtRiM2KC1GLDYlUSlzaW1wbGlmeUYnRi9GMkZpdi1GaG42JC1GIzYmLUYjNihGZV1tRml2LUZobjYkLUYjNiYtRiM2KEZeXm1GaXYtRmhuNiQtRiM2KEZqc0Zfb0ZmX21GYXBGZHBGOUY5RmFwRmRwRjlGYXBGZHBGOUY5RmFwRmRwRjlGYXBGZHBGOUY5RmFwRmRwRjlGYXBGZHBGOUZodUZmcEZhcEZkcEY5LUYjNigtRiM2KEZgdEZhdi1GIzYoRltqbEZpdi1GaG42JC1GIzYuLUYjNihGYV9tRmFbbEZlb0ZhcEZkcEY5Rl9vLUYjNihGanhGYVtsRl5zRmFwRmRwRjlGX28tRiM2KEZcW2xGYVtsRmFzRmFwRmRwRjlGX28tRiM2KEZdXGxGYVtsRltzRmFwRmRwRjlGX29GXXRGYXBGZHBGOUY5RmFwRmRwRjlGYXBGZHBGOUZodUZmcEZhcEZkcEY5LUYjNigtRiM2LUZjXmxGaXFGXGZsRmlxRmBfbEZbXmwtRiM2KS1GIzYoLUYjNiotRiM2MkZcXWxGaXFGY3RGaXFGX11sRmlxRmhyRmlxRmVdbEZpcS1GIzYoRmhyRmJlbEZkc0ZqW2xGYndGOUZpcUZoXWxGYXBGZHBGOUZbXmwtRiM2Jy1GIzYoLUYjNigtRiM2KUZmdEZfeS1GIzYmRmN0RmFwRmRwRjlGaXlGYXBGZHBGOUZhdkZgdEZhcEZkcEY5Rmh1RmZwRmFwRmRwRjktRiM2KC1GIzYpRml0Rl95RmljbUZpeUZhcEZkcEY5RmF2RmdzRmFwRmRwRjlGYXBGZHBGOUZfYGxGZmBsRmFwRmRwRjlGaHVGZnBGYXBGZHBGOS1GIzYoLUYjNihGaHJGYXZGX2NtRmFwRmRwRjlGaHVGZnBGYXBGZHBGOUZieC1GIzYnLUYjNi1GY15sRmlxLUYjNihGYHQtRjY2LVEjPD1GJ0Y5RjtGPkZARkJGREZGRkhGSkZNLUYjNilGXnBGX3ktRiM2Ji1GIzYmRmhyRmJlbEZid0Y5RmFwRmRwRjlGaXlGYXBGZHBGOUZhcEZkcEY5RmlxRmBfbEZbXmwtRiM2Jy1GIzYoLUYjNihGYnVGYXZGYHRGYXBGZHBGOUZodUZmcEZhcEZkcEY5RmRkbEZhcEZkcEY5Rl9gbEZhcEZkcEY5RmNgbEZhcEZkcEY5RmFwRmRwRjlGX2BsRmFwRmRwRjktRiM2KUZbZWxGW15sLUYjNigtRiM2KC1GIzYoLUYjNilGZnRGX3lGZ3lGaXlGYXBGZHBGOUZhdkZgdEZhcEZkcEY5Rmh1RmZwRmFwRmRwRjktRiM2KC1GIzYoLUYjNilGaXRGX3lGZ3lGaXlGYXBGZHBGOUZhdkZnc0ZhcEZkcEY5Rmh1RmZwRmFwRmRwRjlGY2RtRmFwRmRwRjlGX2BsRmFwRmRwRjlGY2BsRmFwRmRwRjlGYXBGZHBGOUZfYGxGZmBsRmFwRmRwRjlGaHVGZnBGYXBGZHBGOS1GIzYoLUYjNihGZXVGYXYtRiM2KEZmdkZpdi1GaG42JC1GIzYmRmB3RmFwRmRwRjlGOUZhcEZkcEY5RmFwRmRwRjlGaHVGZnBGYXBGZHBGOS1GIzYoLUYjNipGXWFsRltebC1GIzYnLUYjNigtRiM2KC1GIzYpRmV1Rl95Rmd5Rml5RmFwRmRwRjlGYXYtRiM2KC1GLDYlUSZldmFsZkYnRi9GMkZpdi1GaG42JC1GIzYmLUYjNihGW2psRml2LUZobjYkLUYjNi4tRiM2KEZqeEZhW2xGZWhsRmFwRmRwRjlGX28tRiM2KEZcW2xGYVtsRltpbEZhcEZkcEY5Rl9vLUYjNihGZltsRmFbbEZidUZhcEZkcEY5Rl9vLUYjNihGXVxsRmFbbEZoXmxGYXBGZHBGOUZfb0ZmZm1GYXBGZHBGOUY5RmFwRmRwRjlGYXBGZHBGOUY5RmFwRmRwRjlGYXBGZHBGOUZodUZmcEZhcEZkcEY5LUYjNictRiM2LUZjXmxGaXEtRiM2Ki1GIzYoRmhyRl5mbEZcb0ZhcEZkcEY5RmlxLUY2Ni9RJGFuZEYnRlRGVkZYRjtGPkZARkJGREZGRkhGWkZmbkZpcS1GIzYoRmZmbUZhW2wtRiM2KUZpdEZfeUZeZW1GaXlGYXBGZHBGOUZhcEZkcEY5RmFwRmRwRjlGaXFGYF9sRltebC1GIzYnLUYjNigtRiM2KC1GIzYpRmV1Rl95Rl5lbUZpeUZhcEZkcEY5RmF2RlxobUZhcEZkcEY5Rmh1RmZwRmFwRmRwRjktRiM2KEZockZhdkZgZW1GYXBGZHBGOUZhcEZkcEY5Rl9gbEZhcEZkcEY5RmNgbEZhcEZkcEY5RmFwRmRwRjlGX2BsRmZgbEZhcEZkcEY5Rmh1RmZwRmFwRmRwRjktRiM2KC1GNjYvUSdyZXR1cm5GJ0ZURlZGWEY7Rj5GQEZCRkRGRkZIRlpGZm5GaXFGZXVGYXBGZHBGOUZhcEZkcEY5Rl9gbC1GNjYvUSllbmR+cHJvY0YnRlRGVkZYRjtGPkZARkJGREZGRkhGWkZmbkZhcEZkcEY5Rjk=">LV9JLFR5cGVzZXR0aW5nRzYkJSpwcm90ZWN0ZWRHSShfc3lzbGliRzYiSSxtcHJpbnRzbGFzaEdGKDYkNyM+SS90aW1lRXZhbHVhdGlvbkdGKGYqNidJIm5HRihJInRHRihJJmFfYXJyR0YoSSZiX2FyckdGKEkmdl9hcnJHRig2NUkjZXFHRihJKHJlcF9hcnJHRihJImpHRihJImlHRihJKHZfY29lZmZHRihJKGFfY29lZmZHRihJKGJfY29lZmZHRihJJXJlcHNHRihJJnhfYXV4R0YoSSZnX2F1eEdGKEkoZ2FtbWFfaUdGKEkkZ19pR0YoSSJrR0YoSSZnX2FyckdGKEkmeF9hcnJHRihJI3JpR0YoSSNyakdGKEkqZ2FtbWFfcmVzR0YoSShyZXNfYXJyR0YoRihGKEMrPjgxLUkmQXJyYXlHRiY2JDsiIiI5JCIiIT44MkZMPjgkLyomJkkiYUdGKDYjOCdGUCkmSSJ4R0YoRmVuJkkiYkdGKEZlbkZQLCZJJmdhbW1hR0YmRlAmSSJWR0YoRmVuISIiPjglRkw/KEZmbiIiI0ZQRlFJJXRydWVHRiZAJC8mOShGZW4mRmlvNiMsJkZmbkZQRmBvRlBDJD4mRmJvRmVuRlA+JkZib0ZbcEZQPyhGZm5GUEZQRlFGZW9DLz44M0ZfcD44KEZSPjgpRlI+OCpGUj44K0ZSQCQvRmVwRlA/KDgmRmZuRlAiIiVGZW9DJD44NCZGYm82I0ZhcUAlL0ZlcUZSWz5GXXEsJkZdcUZQRlBGUEAlMkZSRl1xPyhGYXFGUEZQRlxyRmVvQyU+RmlwLCZGaXBGUCY5JkZncUZQPkZbcSwmRltxRlAmOSdGZ3FGUD5GZ3AsJkZncEZQJkZpb0ZncUZQQyU+RmlwJkZkckZlbj5GW3EmRmhyRmVuPkZncEZob0AlL0ZmbkZQPkZWLUklc3Vic0dGJjYnLy5GWUZZLy5Gam5Gam4vLkZeb0Zeby8uRmhuRmhuRlY+RlYtRmZzNicvJkZaRltwRlkvJkZbb0ZbcEZqbi8mRl9vRltwRl5vLyZGaW5GW3BGaG5GVj44LC1JJHJoc0dGJjYjLUkoaXNvbGF0ZUdGKDYkRlZGaG4+OC0tRmZzNiUvRmhuSSJUR0YoL0ZdbyZGXW9GZW5GVj44Li1JKXNpbXBsaWZ5R0YoNiMtRl51NiMtRmF1NiRGZHVGanU+OC8tRmZzNicvRmh1OSUvRllGaXAvRmpuRltxL0Zeb0ZncEZcdkAlRl5yQyY/KDgwRmZuRlAsKEZmbkZQRl1xRlBGYG9GUEZlb0MkPiZGSzYjRmB3RmV2PiZGVEZld0ZcdT5GZm5GYXdGVUAkMUZldiZGaW82IywmRmZuRlBGUEZQQyQ+ODVGZXZGanFDJT4mRktGZW5GZXY+JkZURmVuRlx1Rml3Pjg2LUZNNiNGTz8oRmZuRlBGUEZRRmVvQyQ+JkZneEZlbi1JJmV2YWxmR0YmNiMtRmZzNicvRllGXnMvRmpuRmBzL0Zdb0ZgeC9GXm9GaG9GZXhAJDMyRmZuRlEvRmV4JkZURlx4QyQ+JkZneEZceEZdeT5GZm5GXXhPRmd4RihGKEYoNyNGLg==</Equation></Text-field>
+</Output>
+</Group>
+<Group hide-input="false" labelreference="L37" drawlabel="true">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal"><Font encoding="UTF-8">#\320\270\320\275\321\202\320\265\321\200\321\204\320\265\320\271\321\201
+
+
+
+
+</Font>
+try 
+
+
+<Font encoding="UTF-8">#\321\204\321\203\320\275\320\272\321\206\320\270\321\217 \320\264\320\273\321\217 \320\277\321\200\320\276\320\262\320\265\321\200\320\272\320\270, \320\262 \320\277\321\200\320\260\320\262\320\270\320\273\321\214\320\275\320\276\320\274 \320\273\320\270 \321\204\320\276\321\200\320\274\320\260\321\202\320\265 \320\262\320\262\320\265\320\264\320\265\320\275\321\213 \321\207\320\270\321\201\320\273\320\260
+</Font>is_parsable := proc(x)
+    local parsed;
+    try
+        parsed := parse(x);
+        return true;
+    catch:
+        return false;
+    end try;
+end proc;
+
+<Font encoding="UTF-8">#\320\276\320\277\321\200\320\265\320\264\320\265\320\273\320\265\320\275\320\270\320\265 n</Font>
+<Font encoding="UTF-8"> aux := GetInput(&quot;\320\222\320\262\320\265\320\264\320\270\321\202\320\265 \320\272\320\276\320\273\320\270\321\207\320\265\321\201\321\202\320\262\320\276 \320\275\320\260\320\277\321\200\320\260\320\262\320\273\320\265\320\275\320\270\320\271 \320\277\320\276\320\264\320\263\320\276\321\202\320\276\320\262\320\272\320\270 n:&quot;, 'title'=&quot;\320\222\320\262\320\265\320\264\320\270\321\202\320\265 n&quot;);</Font>
+ while not(is_parsable(aux)) do
+   <Font encoding="UTF-8">  Alert(&quot;\320\222\320\262\320\265\320\264\320\270\321\202\320\265 \321\206\320\265\320\273\320\276\320\265 \321\207\320\270\321\201\320\273\320\276!&quot;);
+</Font>    <Font encoding="UTF-8">aux := GetInput(&quot;\320\222\320\262\320\265\320\264\320\270\321\202\320\265 \320\272\320\276\320\273\320\270\321\207\320\265\321\201\321\202\320\262\320\276 \320\275\320\260\320\277\321\200\320\260\320\262\320\273\320\265\320\275\320\270\320\271 \320\277\320\276\320\264\320\263\320\276\321\202\320\276\320\262\320\272\320\270 n:&quot;, 'title' = &quot;\320\222\320\262\320\265\320\264\320\270\321\202\320\265 n&quot;); 
+ end do;</Font>
+ while whattype(parse(aux))&lt;&gt; integer do
+<Font encoding="UTF-8">    Alert(&quot;\320\222\320\262\320\265\320\264\320\270\321\202\320\265 \321\206\320\265\320\273\320\276\320\265 \321\207\320\270\321\201\320\273\320\276!&quot;);
+</Font>    <Font encoding="UTF-8">aux := GetInput(&quot;\320\222\320\262\320\265\320\264\320\270\321\202\320\265 \320\272\320\276\320\273\320\270\321\207\320\265\321\201\321\202\320\262\320\276 \320\275\320\260\320\277\321\200\320\260\320\262\320\273\320\265\320\275\320\270\320\271 \320\277\320\276\320\264\320\263\320\276\321\202\320\276\320\262\320\272\320\270 n:&quot;, 'title' = &quot;\320\222\320\262\320\265\320\264\320\270\321\202\320\265 n&quot;); 
+</Font>end do;
+n := aux;
+
+<Font encoding="UTF-8">#\320\276\320\277\321\200\320\265\320\264\320\265\320\273\320\265\320\275\320\270\320\265 t
+aux1 := GetInput(sprintf(&quot;\320\232\320\276\320\273\320\270\321\207\320\265\321\201\321\202\320\262\320\276 \320\275\320\260\320\277\321\200\320\260\320\262\320\273\320\265\320\275\320\270\320\271 \320\277\320\276\320\264\320\263\320\276\321\202\320\276\320\262\320\272\320\270 - %s. \320\222\320\262\320\265\320\264\320\270\321\202\320\265 \320\276\320\261\321\211\320\265\320\265 \320\272\320\276\320\273\320\270\321\207\320\265\321\201\321\202\320\262\320\276 \321\207\320\260\321\201\320\276\320\262 T (\320\267\320\264\320\265\321\201\321\214 \320\270 \320\264\320\260\320\273\320\265\320\265 \320\264\321\200\320\276\320\261\320\275\321\213\320\265 \321\207\320\270\321\201\320\273\320\260 \320\262\320\262\320\276\320\264\320\270\321\202\321\214 \321\207\320\265\321\200\320\265\320\267 \321\202\320\276\321\207\320\272\321\203):&quot;, n), 'title'=&quot;\320\222\320\262\320\265\320\264\320\270\321\202\320\265 n&quot;</Font>);
+ while not(is_parsable(aux1)) do
+   <Font encoding="UTF-8">  Alert(&quot;\320\222\320\262\320\265\320\264\320\270\321\202\320\265 \321\207\320\270\321\201\320\273\320\276!&quot;);
+</Font>    <Font encoding="UTF-8">aux1 := GetInput(&quot;\320\222\320\262\320\265\320\264\320\270\321\202\320\265 \320\272\320\276\320\273\320\270\321\207\320\265\321\201\321\202\320\262\320\276 \320\275\320\260\320\277\321\200\320\260\320\262\320\273\320\265\320\275\320\270\320\271 \320\277\320\276\320\264\320\263\320\276\321\202\320\276\320\262\320\272\320\270 T:&quot;, 'title' = &quot;\320\222\320\262\320\265\320\264\320\270\321\202\320\265 T&quot;); 
+</Font> end do;
+   while whattype(parse(aux1))&lt;&gt; integer and whattype(parse(aux1))&lt;&gt; float do
+<Font encoding="UTF-8">     Alert(&quot;\320\222\320\262\320\265\320\264\320\270\321\202\320\265 \321\207\320\270\321\201\320\273\320\276!&quot;);
+</Font>     <Font encoding="UTF-8">aux1 := GetInput(&quot;\320\222\320\262\320\265\320\264\320\270\321\202\320\265 \320\276\320\261\321\211\320\265\320\265 \320\272\320\276\320\273\320\270\321\207\320\265\321\201\321\202\320\262\320\276 \321\207\320\260\321\201\320\276\320\262 T:&quot;, 'title' = &quot;\320\222\320\262\320\265\320\264\320\270\321\202\320\265 T&quot;</Font>); 
+   end do;
+t := aux1;
+
+<Font encoding="UTF-8">#\320\276\320\277\321\200\320\265\320\264\320\265\320\273\320\265\320\275\320\270\320\265 a 
+A := GetInput(sprintf(&quot;\320\232\320\276\320\273\320\270\321\207\320\265\321\201\321\202\320\262\320\276 \320\275\320\260\320\277\321\200\320\260\320\262\320\273\320\265\320\275\320\270\320\271 \320\277\320\276\320\264\320\263\320\276\321\202\320\276\320\262\320\272\320\270 - %s, \320\276\320\261\321\211\320\265\320\265 \320\272\320\276\320\273\320\270\321\207\320\265\321\201\321\202\320\262\320\276 \321\207\320\260\321\201\320\276\320\262 - %s. \320\222\320\262\320\265\320\264\320\270\321\202\320\265 \320\272\320\276\321\215\321\204\321\204\320\270\321\206\320\270\320\265\320\275\321\202\321\213 a (%s \321\207\320\270\321\201\320\265\320\273, \321\200\320\260\320\267\320\264\320\265\320\273\320\265\320\275\320\275\321\213\321\205 \320\277\321\200\320\276\320\261\320\265\320\273\320\260\320\274\320\270, a&gt;0):&quot;, n, t, n), 'title'=&quot;\320\222\320\262\320\265\320\264\320\270\321\202\320\265 a&quot;);
+</Font>
+
+<Font encoding="UTF-8">#\321\204\321\203\320\275\320\272\321\206\320\270\321\217 \320\264\320\273\321\217 \320\277\321\200\320\276\320\262\320\265\321\200\320\272\320\270, \320\262 \320\277\321\200\320\260\320\262\320\270\320\273\321\214\320\275\320\276\320\274 \320\273\320\270 \321\204\320\276\321\200\320\274\320\260\321\202\320\265 \320\262\320\262\320\265\320\264\320\265\320\275\321\213 \321\207\320\270\321\201\320\273\320\260</Font>
+all_parsable := proc(lst)
+    local elem;
+    for elem in lst do
+        if not is_parsable(elem) then
+            return false;
+        end if;
+    end do;
+    return true;
+end proc;
+
+
+<Font encoding="UTF-8">#\321\204\321\203\320\275\320\272\321\206\320\270\320\270 \320\264\320\273\321\217 \320\277\321\200\320\276\320\262\320\265\321\200\320\272\320\270 \320\275\320\260\321\205\320\276\320\266\320\264\320\265\320\275\320\270\321\217 a \320\262 \320\267\320\260\320\264\320\260\320\275\320\275\320\276\320\274 \320\264\320\270\320\260\320\277\320\260\320\267\320\276\320\275\320\265 
+a_</Font>is_in_range := proc(x)
+    local parsed;
+    try
+        parsed := parse(x);
+        if type(parsed, 'numeric') and parsed &gt; 0 then
+            return true;
+        else
+            return false;
+        end if;
+    catch:
+        return false;
+    end try;
+end proc;
+
+a_in_range := proc(lst)
+    local elem;
+    for elem in lst do
+        if not a_is_in_range(elem) then
+            return false;
+        end if;
+    end do;
+    return true;
+end proc;
+
+valid_input := false;
+while not valid_input do
+    aux_arr :=  StringTools:-Split(A, &quot; &quot;);
+       
+    if nops(aux_arr) = parse(n) and all_parsable(aux_arr) and a_in_range(aux_arr) then
+        valid_input := true;
+    else
+<Font encoding="UTF-8">        Alert(&quot;\320\222\320\262\320\265\320\264\320\265\320\275\321\213 \320\275\320\265\320\262\320\265\321\200\320\275\321\213\320\265 \320\272\320\276\321\215\321\204\321\204\320\270\321\206\320\270\320\265\320\275\321\202\321\213!&quot;);
+        A := GetInput(sprintf(&quot;\320\222\320\262\320\265\320\264\320\270\321\202\320\265 \320\272\320\276\321\215\321\204\321\204\320\270\321\206\320\270\320\265\320\275\321\202\321\213 a (%s \321\207\320\270\321\201\320\265\320\273, \321\200\320\260\320\267\320\264\320\265\320\273\320\265\320\275\320\275\321\213\321\205 \320\277\321\200\320\276\320\261\320\265\320\273\320\260\320\274\320\270, a&gt;0):&quot;, n), 'title' = &quot;\320\222\320\262\320\265\320\264\320\270\321\202\320\265 a&quot;);</Font>
+    end if;
+end do;
+
+a_arr := Array (1..parse(n));
+for i from 1 to parse(n) do
+  a_arr[i] := parse(aux_arr[i]);
+end do;
+
+
+
+<Font encoding="UTF-8">#\320\276\320\277\321\200\320\265\320\264\320\265\320\273\320\265\320\275\320\270\320\265 b</Font>
+B := <Font encoding="UTF-8">GetInput(sprintf(&quot;\320\232\320\276\320\273\320\270\321\207\320\265\321\201\321\202\320\262\320\276 \320\275\320\260\320\277\321\200\320\260\320\262\320\273\320\265\320\275\320\270\320\271 \320\277\320\276\320\264\320\263\320\276\321\202\320\276\320\262\320\272\320\270 - %s, \320\276\320\261\321\211\320\265\320\265 \320\272\320\276\320\273\320\270\321\207\320\265\321\201\321\202\320\262\320\276 \321\207\320\260\321\201\320\276\320\262 - %s. \320\222\320\262\320\265\320\264\320\270\321\202\320\265 \320\272\320\276\321\215\321\204\321\204\320\270\321\206\320\270\320\265\320\275\321\202\321\213 b (%s \321\207\320\270\321\201\320\265\320\273, \321\200\320\260\320\267\320\264\320\265\320\273\320\265\320\275\320\275\321\213\321\205 \320\277\321\200\320\276\320\261\320\265\320\273\320\260\320\274\320\270, 0&lt;b&lt;1):&quot;, n, t, n), 'title'=&quot;\320\222\320\262\320\265\320\264\320\270\321\202\320\265 b&quot;);
+</Font>
+
+<Font encoding="UTF-8">#\321\204\321\203\320\275\320\272\321\206\320\270\320\270 \320\264\320\273\321\217 \320\277\321\200\320\276\320\262\320\265\321\200\320\272\320\270 \320\275\320\260\321\205\320\276\320\266\320\264\320\265\320\275\320\270\321\217 b \320\262 \320\267\320\260\320\264\320\260\320\275\320\275\320\276\320\274 \320\264\320\270\320\260\320\277\320\260\320\267\320\276\320\275\320\265 
+</Font>is_in_range := proc(x)
+    local parsed;
+    try
+        parsed := parse(x);
+        if type(parsed, 'numeric') and parsed &gt; 0 and parsed &lt; 1 then
+            return true;
+        else
+            return false;
+        end if;
+    catch:
+        return false;
+    end try;
+end proc;
+
+all_in_range := proc(lst)
+    local elem;
+    for elem in lst do
+        if not is_in_range(elem) then
+            return false;
+        end if;
+    end do;
+    return true;
+end proc;
+
+valid_input1 := false;
+while not valid_input1 do
+    aux_arr1 :=  StringTools:-Split(B, &quot; &quot;);
+       
+    if nops(aux_arr1) = parse(n) and all_parsable(aux_arr1) and all_in_range(aux_arr1) then
+        valid_input1 := true;
+    else
+<Font encoding="UTF-8">        Alert(&quot;\320\222\320\262\320\265\320\264\320\265\320\275\321\213 \320\275\320\265\320\262\320\265\321\200\320\275\321\213\320\265 \320\272\320\276\321\215\321\204\321\204\320\270\321\206\320\270\320\265\320\275\321\202\321\213!&quot;);
+        B := GetInput(sprintf(&quot;\320\222\320\262\320\265\320\264\320\270\321\202\320\265 \320\272\320\276\321\215\321\204\321\204\320\270\321\206\320\270\320\265\320\275\321\202\321\213 b (%s \321\207\320\270\321\201\320\265\320\273, \321\200\320\260\320\267\320\264\320\265\320\273\320\265\320\275\320\275\321\213\321\205 \320\277\321\200\320\276\320\261\320\265\320\273\320\260\320\274\320\270, 0&lt;b&lt;1):&quot;, n), 'title' = &quot;\320\222\320\262\320\265\320\264\320\270\321\202\320\265 b&quot;);</Font>
+    end if;
+end do;
+
+b_arr := Array (1..parse(n));
+for i from 1 to parse(n) do
+  b_arr[i] := parse(aux_arr1[i]);
+end do;
+
+
+<Font encoding="UTF-8">#\320\276\320\277\321\200\320\265\320\264\320\265\320\273\320\265\320\275\320\270\320\265 V
+v := GetInput(sprintf(&quot;\320\232\320\276\320\273\320\270\321\207\320\265\321\201\321\202\320\262\320\276 \320\275\320\260\320\277\321\200\320\260\320\262\320\273\320\265\320\275\320\270\320\271 \320\277\320\276\320\264\320\263\320\276\321\202\320\276\320\262\320\272\320\270 - %s, \320\276\320\261\321\211\320\265\320\265 \320\272\320\276\320\273\320\270\321\207\320\265\321\201\321\202\320\262\320\276 \321\207\320\260\321\201\320\276\320\262 - %s. \320\222\320\262\320\265\320\264\320\270\321\202\320\265 \321\201\321\200\320\265\320\264\320\275\320\270\320\265 \320\276\321\206\320\265\320\275\320\272\320\270 \320\277\320\276 \320\272\320\260\320\266\320\264\320\276\320\274\321\203 \320\275\320\260\320\277\321\200\320\260\320\262\320\273\320\265\320\275\320\270\321\216 \320\277\321\200\320\270 \320\276\321\202\321\201\321\203\321\202\321\201\321\202\320\262\320\270\320\270 \320\262\321\200\320\265\320\274\320\265\320\275\320\270, \320\262\321\213\320\264\320\265\320\273\320\265\320\275\320\275\320\276\320\263\320\276 \320\275\320\260 \320\276\320\261\321\203\321\207\320\265\320\275\320\270\320\265 (%s \321\207\320\270\321\201\320\265\320\273, \321\200\320\260\320\267\320\264\320\265\320\273\320\265\320\275\320\275\321\213\321\205 \320\277\321\200\320\276\320\261\320\265\320\273\320\260\320\274\320\270):&quot;, n, t, n), 'title'=&quot;\320\222\320\262\320\265\320\264\320\270\321\202\320\265 V&quot;</Font>);
+
+valid_input2 := false;
+while not valid_input2 do
+    aux_arr2 :=  StringTools:-Split(v, &quot; &quot;);
+       
+    if nops(aux_arr2) = parse(n) and all_parsable(aux_arr2) then
+        valid_input2 := true;
+    else
+<Font encoding="UTF-8">        Alert(&quot;\320\222\320\262\320\265\320\264\320\265\320\275\321\213 \320\275\320\265\320\262\320\265\321\200\320\275\321\213\320\265 \320\272\320\276\321\215\321\204\321\204\320\270\321\206\320\270\320\265\320\275\321\202\321\213!&quot;);
+        v := GetInput(sprintf(&quot;\320\222\320\262\320\265\320\264\320\270\321\202\320\265 \320\272\320\276\321\215\321\204\321\204\320\270\321\206\320\270\320\265\320\275\321\202\321\213 V (%s \321\207\320\270\321\201\320\265\320\273, \321\200\320\260\320\267\320\264\320\265\320\273\320\265\320\275\320\275\321\213\321\205 \320\277\321\200\320\276\320\261\320\265\320\273\320\260\320\274\320\270):&quot;, n), 'title' = &quot;\320\222\320\262\320\265\320\264\320\270\321\202\320\265 V&quot;);</Font>
+    end if;
+end do;
+
+v_arr := Array (1..parse(n));
+for i from 1 to parse(n) do
+  v_arr[i] := parse(aux_arr2[i]);
+end do;
+n := parse(n);
+t := parse(t);
+
+res := timeEvaluation(n, t, a_arr, b_arr, v_arr);
+
+
+res_str := &quot;[&quot;;
+for i from 1 to nops(res) do
+  res_str := cat(res_str, res[i]);
+  if i &lt; nops(res) then
+    res_str := cat(res_str, &quot;,&quot;);
+  end if;
+end do;
+res_str := cat(res_str, &quot;]&quot;);
+print(res_str);
+<Font encoding="UTF-8">Message(sprintf(&quot;\320\240\320\265\320\267\321\203\320\273\321\214\321\202\320\260\321\202 \320\262\321\213\321\207\320\270\321\201\320\273\320\265\320\275\320\270\320\271: %s&quot;, res_str), 'title' = &quot;\320\240\320\265\320\267\321\203\320\273\321\214\321\202\320\260\321\202&quot;);</Font>
+catch:
+<Font encoding="UTF-8"> print(&quot;\320\222\321\213\321\205\320\276\320\264 \320\270\320\267 \320\277\321\200\320\276\320\263\321\200\320\260\320\274\320\274\321\213&quot;)
+</Font>end try:
+
+</Text-field>
+</Input>
+<Input><Text-field prompt="&gt; " style="Maple Input" spaceabove="0" linebreak="space" rightmargin="0" linespacing="0.0" initial="0" firstindent="0" leftmargin="0" bulletsuffix="" alignment="left" bullet="none" spacebelow="0" pagebreak-before="false"></Text-field>
+</Input>
+<Output><Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output" display="LUkobWZlbmNlZEc2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYoLUknbXRhYmxlR0YkNjUtSSRtdHJHRiQ2KS1JJG10ZEdGJDYoLUkjbW5HRiQ2JFEsMTQuMzQxMDMwMjNGJy8lLG1hdGh2YXJpYW50R1Enbm9ybWFsRicvJSlyb3dhbGlnbkdRIUYnLyUsY29sdW1uYWxpZ25HRj0vJStncm91cGFsaWduR0Y9LyUocm93c3BhbkdRIjFGJy8lK2NvbHVtbnNwYW5HRkQtRjI2KC1JJW1yb3dHRiQ2Ji1GNTYkUSwyLjg5NDY3NTg5N0YnRjgtSSNtb0dGJDYtUTEmSW52aXNpYmxlVGltZXM7RidGOC8lJmZlbmNlR1EmZmFsc2VGJy8lKnNlcGFyYXRvckdGVS8lKXN0cmV0Y2h5R0ZVLyUqc3ltbWV0cmljR0ZVLyUobGFyZ2VvcEdGVS8lLm1vdmFibGVsaW1pdHNHRlUvJSdhY2NlbnRHRlUvJSdsc3BhY2VHUSYwLjBlbUYnLyUncnNwYWNlR0Zeby1JJW1zdXBHRiQ2Ji1GNTYkUSMxMEYnRjgtRjU2JFEjMTdGJ0Y4LyUxc3VwZXJzY3JpcHRzaGlmdEdRIjBGJy9JK21zZW1hbnRpY3NHRiRRIl5GJ0Y4RjtGPkZARkJGRUZHLUYyNigtRjU2JFEjMC5GJ0Y4RjtGPkZARkJGRUY7Rj5GQC8lJmFsaWduR1ElYXhpc0YnL0Y8USliYXNlbGluZUYnL0Y/USdjZW50ZXJGJy9GQVEnfGZybGVmdHxockYnLyUvYWxpZ25tZW50c2NvcGVHUSV0cnVlRicvJSxjb2x1bW53aWR0aEdRJWF1dG9GJy8lJndpZHRoR0ZjcS8lK3Jvd3NwYWNpbmdHUSYxLjBleEYnLyUuY29sdW1uc3BhY2luZ0dRJjAuOGVtRicvJSlyb3dsaW5lc0dRJW5vbmVGJy8lLGNvbHVtbmxpbmVzR0Zeci8lJmZyYW1lR0Zeci8lLWZyYW1lc3BhY2luZ0dRLDAuNGVtfjAuNWV4RicvJSplcXVhbHJvd3NHRlUvJS1lcXVhbGNvbHVtbnNHRlUvJS1kaXNwbGF5c3R5bGVHRlUvJSVzaWRlR1EmcmlnaHRGJy8lMG1pbmxhYmVsc3BhY2luZ0dGW3JGOC9GXnBRKlJvd1ZlY3RvckYnLyUlb3BlbkdRJyZsc3FiO0YnLyUmY2xvc2VHUScmcnNxYjtGJ0Zhcw==">LV9JLFR5cGVzZXR0aW5nRzYkJSpwcm90ZWN0ZWRHSShfc3lzbGliRzYiSSxtcHJpbnRzbGFzaEdGKDYkNyMtSSdSVEFCTEVHRig2JSI1LTQ9J3lwZnVZJT0tSSdWRUNUT1JHRig2IzcmJCIrQkk1TTkhIikkIisoKmVuJSpHIiIpRjckIiIhRjtJJkFycmF5R0YmNyMtRjw2Iy9JJCVpZEdGKEYv</Equation></Text-field>
+</Output>
+<Output><Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output" display="LUkjbXNHNiMvSSttb2R1bGVuYW1lRzYiSSxUeXBlc2V0dGluZ0dJKF9zeXNsaWJHRic2I1FPWzE0LjM0MTAzMDIzLC4yODk0Njc1ODk3ZTE4LC4yODk0Njc1ODk3ZTE4LDAuXUYn">UU9bMTQuMzQxMDMwMjMsLjI4OTQ2NzU4OTdlMTgsLjI4OTQ2NzU4OTdlMTgsMC5dNiI=</Equation></Text-field>
+</Output>
+</Group>
+<Group labelreference="L44" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal"></Text-field>
+</Input>
+</Group>
+</Worksheet>
